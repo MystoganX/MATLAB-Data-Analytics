@@ -3,6 +3,14 @@
 
 This section covers from general statisctical analysis, and their visualization, to data filtering and pattern recognition for later prediction of situations. 
 
+Pie Charts
+---
+
+Raw data |  Processed yearly data
+:-------------------------:|:-------------------------:
+<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/PieChart_Gender.png" width="800" height="350" />  |  <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/PieChart_Job.png" width="800" height="350" />
+
+
 Finding sales patterns
 ---
 
