@@ -1,4 +1,4 @@
-### MATLAB-Data-Analytics
+# MATLAB-Data-Analytics
 
 This section covers from general statisctical analysis, and their visualization, to data filtering and pattern recognition for later prediction of situations. 
 
@@ -9,23 +9,17 @@ Source data
 - [Student_grades.xls](https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Student_grades.xlsx): records of grades from two courses of 10th grade students.
 
 
-Pie Charts
+Distribution
 ---
-
-Raw data |  Processed yearly data
+Pie Chart |  Stacked Histogram
 :-------------------------:|:-------------------------:
-<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/PieChart_Gender.png" width="800" height="350" />  |  <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/PieChart_Job.png" width="800" height="350" />
+<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/PieChart_Gender.png" width="800" height="350" />  |  <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age_Gender.png" width="800" height="350" />
+
 
 Histograms
 ---
-
-<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age.png" width="550" height="400" /> 
-
-Gender distribution |  Job distribution
-:-------------------------:|:-------------------------:
-<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age_Gender.png" width="800" height="350" />  |  <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age_Job.png" width="800" height="350" />
-
-
+ 
+ 
 Finding sales patterns
 ---
 
