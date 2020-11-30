@@ -13,7 +13,7 @@ Raw data |  Processed yearly data
 Histograms
 ---
 
-<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age.png" width="800" height="400" /> 
+<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age.png" width="550" height="400" /> 
 
 Gender distribution |  Job distribution
 :-------------------------:|:-------------------------:
