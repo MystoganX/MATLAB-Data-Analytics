@@ -10,6 +10,15 @@ Raw data |  Processed yearly data
 :-------------------------:|:-------------------------:
 <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/PieChart_Gender.png" width="800" height="350" />  |  <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/PieChart_Job.png" width="800" height="350" />
 
+Histograms
+---
+
+<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age.png" width="800" height="400" /> 
+
+Gender distribution |  Job distribution
+:-------------------------:|:-------------------------:
+<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age_Gender.png" width="800" height="350" />  |  <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Histogram_Age_Job.png" width="800" height="350" />
+
 
 Finding sales patterns
 ---
@@ -17,3 +26,5 @@ Finding sales patterns
 Raw data |  Processed yearly data
 :-------------------------:|:-------------------------:
 <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/FilteredSales_small.png" width="800" height="400" />  |  <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/YearlySales_small.png" width="800" height="400" />
+
+
