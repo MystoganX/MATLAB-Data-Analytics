@@ -1,7 +1,10 @@
 # MATLAB-Data-Analytics
-Examples of MATLAB codes to process data from spreadsheets or csv files to do statistical anallysis and identify patterns
+*The examples shown in this section use the data from Tableau's fictional store [Superstore (Superstore.xls)](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls) and the results of local questionare about [Employee Engagement (workers_eng.xls)](https://www.kaggle.com/thoughtvector/customer-support-on-twitter). The Superstore.xls file is a spreadsheet with records of sales data from 2014 to 2017, while workers_eng.xls contains data from a social questionnaire on workers engagement with their company.
 
-These go from simple **reading** and **processing** of the data to plot typical sales graphs...
+This section covers from general statisctical analysis, and their visualization, to data filtering and pattern recognition for later prediction of situations. 
+
+Finding sales patterns
+---
 
 Raw data |  Processed yearly data
 :-------------------------:|:-------------------------:
