@@ -10,6 +10,12 @@ checkDates = @(x) (isnumeric(x) || isdatetime(x));
 defaultPlotStyle = 'sales';
 validPlotStyle = {'sales','$','quantity','qty'};
 checkPlotStyle = @(x) any(validatestring(x,validPlotStyle));
+defaultLineStyle = '-';
+validLineStyle = {'-','--','-.',':','none'};
+checkLineStyle = @(x) any(validatestring(x,validLineStyle));
+defaultMarker = 'none';
+validMarker = {'o','+','*','.','x','_','|','s','d','^','v','>','<','p','h','none'};
+checkMarker = @(x) any(validatestring(x,validMarker));
 defaultLines = {''};
 validLines = {'mean','x0','y0'};
 checkLinesBase = @(x) any(validatestring(x,validLines));
@@ -24,11 +30,13 @@ checkColors = @(x) (isnumeric(x) && size(x,2)==3);
 addRequired(p,'t',checkDates);
 addRequired(p,'x',@isnumeric);
 addOptional(p,'plotStyle',defaultPlotStyle,checkPlotStyle);
-addParameter(p,'lines',defaultLines,checkLines)
-addParameter(p,'autoscale',defaultScale,checkScales)
-addParameter(p,'x0',defaultX0,checkDates)
-addParameter(p,'y0',defaultY0,checkDates)
-addParameter(p,'colors',defaultColors,checkColors)
+addParameter(p,'lineStyle',defaultLineStyle,checkLineStyle);
+addParameter(p,'marker',defaultMarker,checkMarker);
+addParameter(p,'lines',defaultLines,checkLines);
+addParameter(p,'autoscale',defaultScale,checkScales);
+addParameter(p,'x0',defaultX0,checkDates);
+addParameter(p,'y0',defaultY0,checkDates);
+addParameter(p,'colors',defaultColors,checkColors);
 % p.KeepUnmatched = true;
 parse(p,t,x,plotStyle,varargin{:})
 % Now adapt labels and formats
@@ -53,7 +61,8 @@ if(strcmpi(p.Results.autoscale,'on'))
     end
 end
 % And the actual plot
-plot(p.Results.t,p.Results.x*scale,'Color',p.Results.colors(1,:));
+plot(p.Results.t,p.Results.x*scale,'Color',p.Results.colors(1,:),'LineStyle',p.Results.lineStyle,'Marker',p.Results.marker);
+% And extras
 if(~any(cellfun(@isempty,p.Results.lines)))
     hold on;
     legend_text = {'Data'};
