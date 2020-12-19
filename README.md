@@ -23,7 +23,7 @@ Histograms
 Finding sales patterns
 ---
 
-Raw data |  Processed yearly data
+Raw data |  Processed daily data
 :-------------------------:|:-------------------------:
 <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/FilteredSales_small.png" width="800" height="400" />  |  <img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/DailySalesComparison_small.png" width="800" height="400" />
 
