@@ -18,9 +18,13 @@ Pie Chart |  Stacked Histogram
 
 Histograms
 ---
+<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/NormalDistributions.png" width="950" height="600" />  
+
+Boxplots
+---
+<img src="https://github.com/MystoganX/MATLAB-Data-Analytics/blob/main/Figures/Grades_Comparison.png" width="950" height="600" />  
  
- 
-Finding sales patterns
+Processing and pattern recognition
 ---
 
 Raw data |  Processed daily data
