@@ -1,6 +1,6 @@
 # MATLAB-Data-Analytics
 
-This section covers from general statisctical analysis, and their visualization, to data filtering and pattern recognition for later prediction of situations. 
+This section covers from general statisctical analysis and their visualization to data filtering and pattern recognition for later prediction of situations. 
 
 Source data
 ---
